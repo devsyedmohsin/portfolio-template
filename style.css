@@ -1,0 +1,64 @@
+/* ----------------------------------- */
+/* Variables-------------------------- */
+/* ----------------------------------- */
+
+:root{
+  --color-grey:#f5f4f4;
+  --color-white: #fdfdfd;
+  --color-headlines:#161616;
+  --color-text:#333;
+  --color-border:#e5e7eb;
+
+  --font:'Gothic A1', sans-serif;
+  --line-height:1.6;
+  --line-height-headlines:1;
+}
+
+
+/* ----------------------------------- */
+/* Basic Setup------------------------ */
+/* ----------------------------------- */
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: var(--font);
+  line-height: var(--line-height);
+  text-rendering: optimizeLegibility;
+  color: var(--color-text);
+}
+
+img,svg,picture{
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+input, button, textarea{
+  font: inherit;
+}
+
+
+/* ----------------------------------- */
+/* Typography------------------------- */
+/* ----------------------------------- */
+
+p,h1,h2,h3,h4,h5,h6{
+  overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: var(--color-headlines);
+}
