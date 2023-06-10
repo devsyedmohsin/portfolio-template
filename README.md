@@ -7,7 +7,7 @@ Give star ⭐ if you find it useful. [Visit site &rarr;](https://oss-portfolio.n
 
 ## Table of Contents
 
-1. [Features](#key-features)
+1. [Features](#features)
 1. [Customization](#customizing-the-template)
 1. [Deploying the Site](#deploying-the-site)
 
