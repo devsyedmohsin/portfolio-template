@@ -4,10 +4,6 @@
 
 Please, give it a star if you find it useful ⭐
 
-
-<img src="assets/images/template.gif.part" alt="lighthouse report with 100% scores">
-
-
 ## Table of Contents
 
 1. [Features](#key-features)
