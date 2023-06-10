@@ -47,7 +47,7 @@ git clone https://github.com/devsyedmohsin/portfolio-template
 After you got the template please open it in the code editor of your choice.
 You will find a file named `index.html` open it and follow the guidance inscribed within the comments to customize the template.
 
-**For example: this is how you'll customize header or hero**
+**For example: this is how you can customize the hero section.**
 
 ```html
 <div class="header-textbox">
