@@ -1,8 +1,8 @@
 # Portfolio Template
 
-⚡️ A user-friendly, responsive and accessible portfolio template for developers. [Visit site &rarr;](https://oss-portfolio.netlify.app/) 
+A user-friendly, responsive and accessible portfolio template for developers 🚀⚡
+Give star ⭐ if you find it useful.  [Visit site &rarr;](https://oss-portfolio.netlify.app/)
 
-Please, give it a star if you find it useful ⭐
 
 ## Table of Contents
 
@@ -25,16 +25,16 @@ Please, give it a star if you find it useful ⭐
 
 ## Customizing the Template
 
-Follow these two steps to fashion an awe-inspiring portfolio of your own. 
+Follow these three steps to fashion an awe-inspiring portfolio of your own. 
 
 - [Cloning the repository](#cloning-the-repository)
 - [Editing the Template](#editing-the-template)
-- [Deploying the Site](#editing-the-template)
+- [Deploying the Site](#deploying-the-site)
 
 
 ### Cloning the Repository.
 
-If you have [Git](https://git-scm.com/) installed on your computer, you can simply clone or download the portfolio by running the following command in your terminal.
+If you have [Git](https://git-scm.com/) installed on your computer, you can simply clone or download the portfolio template by running the following command in your terminal.
 
 ```bash
 git clone https://github.com/devsyedmohsin/portfolio-template
@@ -44,9 +44,7 @@ git clone https://github.com/devsyedmohsin/portfolio-template
 ### Editing the Template 
 
 After you got the template please open it in the code editor of your choice.
-You will find file named `index.html` open it and follow the guidance inscribed within the comments.
-
-**Note:** While editing the template make sure you have updated all href, img src and alt attributes of links and images. 
+You will find a file named `index.html` open it and follow the guidance inscribed within the comments to customize the template.
 
 **For example:**
 
@@ -69,5 +67,6 @@ You will find file named `index.html` open it and follow the guidance inscribed 
   </p>
 </div>
 ```
+**Note:** While editing the template make sure you have updated all `href`, img `src` and `alt` attributes of links and images. 
 
 ### Deploying the Site
