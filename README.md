@@ -74,7 +74,7 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 
 ### Deploying the Site
 
-Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio-template 
+Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio-template to the web.
 
 [![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
 
