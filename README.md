@@ -2,14 +2,16 @@
 
 An open-source, user-friendly, responsive and accessible portfolio template for developers 🚀⚡
 
-Give it a star ⭐ if you find it useful. [Visit site &rarr;](https://opensource-portfolio.netlify.app/)
+Give star ⭐ if you find it useful. [Visit site &rarr;](https://oss-portfolio.netlify.app/)
+
+![Portfolio Template Gif](assets/portfolio-template.gif)
 
 
 ## Table of Contents
 
-1. [Features](#features)
+1. [Features](#key-features)
 1. [Customization](#customizing-the-template)
-<!-- 1. [Deploying the Site](#deploying-the-site) -->
+1. [Deploying the Site](#deploying-the-site)
 
 ## Features
 
@@ -30,7 +32,7 @@ Follow these three steps to fashion an awe-inspiring portfolio of your own.
 
 - [Cloning the repository](#cloning-the-repository)
 - [Editing the Template](#editing-the-template)
-<!-- - [Deploying the Site](#deploying-the-site) -->
+- [Deploying the Site](#deploying-the-site)
 
 
 ### Cloning the Repository.
@@ -47,7 +49,12 @@ git clone https://github.com/devsyedmohsin/portfolio-template
 After you got the template please open it in the code editor of your choice.
 You will find a file named `index.html` open it and follow the guidance inscribed within the comments to customize the template.
 
-**For example: this is how you can customize the hero section.**
+**For example:**
+
+```html
+ <!-- Update with your name -->
+<title>Syed Mohsin's Portfolio</title>
+```
 
 ```html
 <div class="header-textbox">
@@ -65,4 +72,4 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 ```
 **Note:** While editing the template make sure you have updated all `href`, img `src` and `alt` attributes of links and images. 
 
-<!-- ### Deploying the Site -->
+### Deploying the Site
