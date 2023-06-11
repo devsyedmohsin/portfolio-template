@@ -4,7 +4,7 @@ An open-source, user-friendly, responsive and accessible portfolio template for 
 
 Give star ⭐ if you find it useful. [Visit site &rarr;](https://oss-portfolio.netlify.app/)
 
-![Portfolio Template Gif](assets/portfolio-template.gif)
+![Portfolio Template Gif](assets/images/portfolio-template.gif)
 
 
 ## Table of Contents
@@ -73,3 +73,10 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 **Note:** While editing the template make sure you have updated all `href`, img `src` and `alt` attributes of links and images. 
 
 ### Deploying the Site
+
+Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio-template 
+
+[![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
+
+
+### Contributions are warmly welcomed ❤️.
