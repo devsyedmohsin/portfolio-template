@@ -42,7 +42,7 @@ If you have [Git](https://git-scm.com/) installed on your computer, you can simp
 ```bash
 git clone https://github.com/devsyedmohsin/portfolio-template
 ```
- Alternatively, click on this [link]() to download it. 
+ Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-template/archive/refs/heads/main.zip) to download it. 
 
 ### Editing the Template 
 
