@@ -6,6 +6,10 @@ Give star ⭐ if you find it useful. [Visit site &rarr;](https://oss-portfolio.n
 
 ![Portfolio Template Gif](assets/images/portfolio-template.gif)
 
+## Useful resources
+
+Make sure you have subscribed our [youtube channel](https://www.youtube.com/@nisarhassan12) and also don't forget to star 🌟 the [css-tips-tricks](https://github.com/devsyedmohsin/css-tips-tricks) repository that has already reached 150+ stars.
+
 
 ## Table of Contents
 
