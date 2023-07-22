@@ -437,8 +437,7 @@ main {
   display: block;
   margin-inline-start: auto;
   border: 1px solid var(--border-dark);
-  /* Using width to prevent from jerk when text content changes */
-  width: 132px;
+  inline-size: 132px;
   padding-block: var(--gutter-nano);
   border-radius: var(--gutter-large);
   text-decoration: none;
