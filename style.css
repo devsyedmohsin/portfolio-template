@@ -363,31 +363,6 @@ body.light .link::after {
   transform: scaleX(1);
 }
 
-/* shiny-on-hover effect that follows your mouse */
-
-.card {
-  position: relative;
-}
-
-.card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(
-    600px at var(--x) var(--y),
-    #fffcfc18,
-    transparent 40%
-  );
-  border-radius: inherit;
-  opacity: 0;
-  transition: opacity 0.2s;
-  filter: blur(25px);
-}
-
-.card:hover::after {
-  opacity: 1;
-}
-
 /* --------------------------------- */
 /* ----- Layout -----*/
 /* --------------------------------- */
@@ -913,33 +888,43 @@ body.dark .work-links img {
 /* --------------------------------- */
 
 .testimonials {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--gutter-small);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
   margin-block-start: var(--gutter-x-large);
-  max-inline-size: var(--site-max-width);
-  margin-inline: auto;
-  padding-block-end: var(--gutter-large);
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
   list-style-type: none;
+  background-image: linear-gradient(
+    rgba(88, 88, 88, 0.297),
+    rgba(214, 214, 214, 0.082)
+  );
+}
+
+@media (max-width: 1100px) {
+  .testimonials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 645px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
 }
 
 .testimonial {
-  scroll-snap-align: start;
-  max-inline-size: 475px;
-  min-inline-size: 475px;
-  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
   padding: var(--gutter-small);
-  background-color: var(--bg-color-secondary);
-  border-radius: var(--gutter-nano);
+  background-color: var(--bg-color-primary);
 }
 
 .testimonial-text {
+  font-size: var(--text-small);
   margin-block-end: var(--gutter-x-small);
 }
 
 .testimonial-author {
+  margin-block-start: auto;
   display: flex;
   align-items: center;
   gap: var(--gutter-micro);
@@ -958,6 +943,7 @@ body.dark .work-links img {
   block-size: 52px;
   inline-size: 52px;
   border-radius: 50%;
+  background-color: var(--bg-color-secondary);
 }
 
 /* --------------------------------- */
@@ -1190,6 +1176,15 @@ body.light .signatures {
 .footer-link img {
   block-size: 32px;
   inline-size: 32px;
+}
+
+.footer-link a {
+  opacity: 0.875;
+  transition: 225ms ease-in opacity;
+}
+
+.footer-link a:hover {
+  opacity: 1;
 }
 
 body.dark .footer-link img {
