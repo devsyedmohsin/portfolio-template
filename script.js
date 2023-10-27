@@ -4,6 +4,7 @@ const btnToggleNav = document.querySelector(".menu-btn");
 const workEls = document.querySelectorAll(".work-box");
 const workImgs = document.querySelectorAll(".work-img");
 const mainEl = document.querySelector("main");
+const yearEl = document.querySelector(".footer-text span");
 
 const toggleNav = () => {
   nav.classList.toggle("hidden");
@@ -109,3 +110,5 @@ logosWrappers.forEach(async (logoWrapper, i) => {
     logos[2].classList.add("hide", "to-bottom");
   }, 5600);
 });
+
+yearEl.textContent = new Date().getFullYear();
