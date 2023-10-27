@@ -83,16 +83,7 @@ html {
   font-family: "Mona Sans", sans-serif;
   box-sizing: border-box;
   scroll-padding-top: var(--scroll-padding);
-  /* scroll-behavior: smooth; */
 }
-
-/* Ensure that our site is accessible to users who may have vestibular disorders */
-
-/* @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-} */
 
 @media (max-width: 1200px) {
   html {
