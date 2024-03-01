@@ -496,6 +496,10 @@ body.light .header {
   transform: translateY(-50%);
 }
 
+.h1 span {
+  display: block;
+}
+
 .header-text {
   font-size: var(--text-large);
   font-weight: 400;
